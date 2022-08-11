@@ -1,0 +1,23 @@
+1) Define data function which return object like JSON with name and age attribute.
+
+2) Added v-attribute directive with property name in concerned input.
+
+3) Defined default data (Joseph, 54) and added double curly braces in the predefined spaces 
+
+4) Added computed property after data and added function named plusTenAge which return person age in 10 years thanks to operation age plus ten. To finish i added double curly braces with function name without parentheses in second line of the beige box.
+
+5) Added curly braces with name attribute and length function which permitted to add word length.
+
+6) Because filters are deprecated and no longer exist in Vue.js 3, I used the calculated property with function uppercaseName().
+
+7) I defined v-if directive in beige block where condition is => if(name.length && age.length != 0) display beige block else display red box (error message).
+
+8) Added v-show in label error with condition predefined by exercice. For name (if name.length > 15) and for age (if age <1 || age > 100).
+
+9) Defined v-bind:class with same error condition for label with name input and i applied shortcut :class for age input.
+
+10) Created in methods: randomProperty which get a name from randomName array and get an age from random number.
+
+11) Defined autofocus directive which contains mounted() method which focus directly on input when page finish to be loaded. After defined this, i added v-autofocus directive to input name.
+
+12) Added mounted hook which contain randomIdentity method call.
